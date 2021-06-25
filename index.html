@@ -12,10 +12,10 @@
   integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   
   <!-- Custom styles for this template -->
-   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+   <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/styles.css') }}">
    
 
-
+    
      {% block styles %}
      {% endblock %}
 
@@ -28,7 +28,7 @@
 <div class="container">
    <div class="row justify-content-evenly">
     <div class="col-4">
-      <img class="img-fluid mb-3 mb-lg-0" src="{{ url_for('static', filename='imgs/merc.jpg') }}" alt="" />
+      <img class="img-fluid mb-3 mb-lg-0" src="{{ url_for('static', filename='imgs/merc.jpg') }}"  alt="" />
     </div>
     <div class="col-4">
       <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
@@ -37,15 +37,14 @@
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
 </div>
-    </div>
-  </div>
+</div>
+</div>
 </div>
 
 
 
   <!-- Custom scripts for this template -->
-  <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/js/scripts.js') }}"></script>
 
 </body>
-
 </html>
