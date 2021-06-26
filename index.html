@@ -12,23 +12,28 @@
   integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   
   <!-- Custom styles for this template -->
-   <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/styles.css') }}">
+      <link rel="stylesheet" href="assets/static/css/styles.css">
    
 
     
-     {% block styles %}
-     {% endblock %}
+ 
 
 <title>HerHackathon Challenge</title>
 
 </head>
 <body>
 
+<header>
+    <div class="nav">
+        <img class="img-fluid mb-3 mb-lg-0" src="assets/imgs/mercnav.jpg" alt="">
+    </div>
+</header>
+
 <!-- Main Content -->
-<div class="container">
-   <div class="row justify-content-evenly">
+<div class="container" id="landing">
+   <div class="row justify-content-evenly" id="features-row">
     <div class="col-4">
-      <img class="img-fluid mb-3 mb-lg-0" src="{{ url_for('static', filename='imgs/merc.jpg') }}"  alt="" />
+      <img class="img-fluid mb-3 mb-lg-0" src="assets/imgs/merc.jpg" alt="">
     </div>
     <div class="col-4">
       <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
@@ -42,9 +47,45 @@
 </div>
 
 
+<!-- about our team -->
+<footer>
+<div class="about">
+   <a class="bg_links social portfolio" href="https://www.rafaelalucas.com/dailyui" target="_blank">
+      <span class="icon"></span>
+   </a>
+   <a class="bg_links social dribbble" href="https://dribbble.com/rafaelalucas" target="_blank">
+      <span class="icon"></span>
+   </a>
+   <a class="bg_links social linkedin" href="https://www.linkedin.com/in/rafaelalucas/" target="_blank">
+      <span class="icon"></span>
+   </a>
+   <a class="bg_links logo"></a>
+</div>
+<!-- end about our team-->
+<div class="wrapper">
+   <section class="module-team">
+      <div class="team">
+         <h2 class="title">Meet our Team</h2>
+         <div class="team-cards">
+            <!-- Slider main container -->
+            <div class="swiper-container">
+               <!-- Additional required wrapper -->
+               <div class="swiper-wrapper"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="navigation">
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-button-next"></div>
+            </div>
+         </div>
+      </div>
+</div>
+</section>
+</div>
+</footer>
 
   <!-- Custom scripts for this template -->
-  <script src="{{ url_for('static', filename='assets/js/scripts.js') }}"></script>
-
+<script src="assets/static/js/scripts.js"></script>
 </body>
 </html>
