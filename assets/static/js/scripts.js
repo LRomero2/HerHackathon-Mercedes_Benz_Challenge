@@ -12,8 +12,8 @@ window.addEventListener("load", (event) => {
             "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
          website: "https://rafaelalucas.com",
          email: "mailto:rafaelavlucas@gmail.com",
-         linkedin: "https://www.linkedin.com/in/rafaelalucas/",
-         dribbble: "https://dribbble.com/rafaelalucas"
+         linkedin: "https://www.linkedin.com/in/rafaelalucas/"
+         
       },
       {
          name: "Adam Turner",
@@ -24,8 +24,8 @@ window.addEventListener("load", (event) => {
             "https://images.unsplash.com/photo-1522609925277-66fea332c575?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
          website: "https://rafaelalucas.com",
          email: "mailto:rafaelavlucas@gmail.com",
-         linkedin: "https://www.linkedin.com/in/rafaelalucas/",
-         dribbble: "https://dribbble.com/rafaelalucas"
+         linkedin: "https://www.linkedin.com/in/rafaelalucas/"
+         
       },
       {
          name: "Nancy Hughes",
@@ -36,8 +36,8 @@ window.addEventListener("load", (event) => {
             "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
          website: "https://rafaelalucas.com",
          email: "mailto:rafaelavlucas@gmail.com",
-         linkedin: "https://www.linkedin.com/in/rafaelalucas/",
-         dribbble: "https://dribbble.com/rafaelalucas"
+         linkedin: "https://www.linkedin.com/in/rafaelalucas/"
+         
       },
       {
          name: "Jonathan Campbell",
@@ -48,8 +48,8 @@ window.addEventListener("load", (event) => {
             "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
          website: "https://rafaelalucas.com",
          email: "mailto:rafaelavlucas@gmail.com",
-         linkedin: "https://www.linkedin.com/in/rafaelalucas/",
-         dribbble: "https://dribbble.com/rafaelalucas"
+         linkedin: "https://www.linkedin.com/in/rafaelalucas/"
+        
       },
       {
          name: "Jack Keller",
@@ -60,8 +60,8 @@ window.addEventListener("load", (event) => {
             "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
          website: "https://rafaelalucas.com",
          email: "mailto:rafaelavlucas@gmail.com",
-         linkedin: "https://www.linkedin.com/in/rafaelalucas/",
-         dribbble: "https://dribbble.com/rafaelalucas"
+         linkedin: "https://www.linkedin.com/in/rafaelalucas/"
+         
       },
       {
          name: "Sara Carroll",
@@ -72,8 +72,8 @@ window.addEventListener("load", (event) => {
             "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
          website: "https://rafaelalucas.com",
          email: "mailto:rafaelavlucas@gmail.com",
-         linkedin: "https://www.linkedin.com/in/rafaelalucas/",
-         dribbble: "https://dribbble.com/rafaelalucas"
+         linkedin: "https://www.linkedin.com/in/rafaelalucas/"
+       
       }
    ];
 
@@ -82,15 +82,15 @@ window.addEventListener("load", (event) => {
       {
          iWebsite: "https://rafaelalucas.com/dailyui/6/assets/link.svg",
          iEmail: "https://rafaelalucas.com/dailyui/6/assets/email.svg",
-         iLinkedin: "https://rafaelalucas.com/dailyui/6/assets/linkedin.svg",
-         iDribbble: "https://rafaelalucas.com/dailyui/6/assets/dribbble.svg"
+         iLinkedin: "https://rafaelalucas.com/dailyui/6/assets/linkedin.svg"
+         
       }
    ];
 
    var iWebsite = icons[0].iWebsite,
       iEmail = icons[0].iEmail,
-      iLinkedin = icons[0].iLinkedin,
-      iDribbble = icons[0].iDribbble;
+      iLinkedin = icons[0].iLinkedin
+      
 
    /* Function to populate the team members */
    function addTeam() {
@@ -102,8 +102,7 @@ window.addEventListener("load", (event) => {
             photo = team[i].photo,
             website = team[i].website,
             email = team[i].email,
-            linkedin = team[i].linkedin,
-            dribbble = team[i].dribbble;
+            linkedin = team[i].linkedin;
 
          /* Template for the Team Cards */
          var template = `
@@ -124,7 +123,6 @@ window.addEventListener("load", (event) => {
                             <a class="icon" href="${website}" target="_blank" data-index="0"><img src="${iWebsite}"></a>
                             <a class="icon" href="${email}" target="_blank" data-index="1"><img src="${iEmail}"></a>
                             <a class="icon" href="${linkedin}" target="_blank" data-index="2"><img src="${iLinkedin}"></a>
-                            <a class="icon" href="${dribbble}" target="_blank" data-index="3"><img src="${iDribbble}"></a>
                             </div>
                             </div>
                     </div>
