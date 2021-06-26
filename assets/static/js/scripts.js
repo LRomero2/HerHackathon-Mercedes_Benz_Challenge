@@ -192,22 +192,38 @@ window.addEventListener("load", (event) => {
       }
    }
 
-   /* Social Hover */
-   var icon = document.querySelectorAll(".icon");
 
-   icon.forEach(function (el) {
-      el.addEventListener("mouseenter", followCursor);
-   });
-
-   function followCursor(event) {
-      var pointer = event.currentTarget
-            .closest(".swiper-slide")
-            .querySelector(".pointer"),
-         index = event.currentTarget.dataset.index,
-         sizeIcon = 60 * index + 25;
-
-      pointer.style.transform = `translateX(${sizeIcon}px)`;
-   }
-
-   /* end */
 });
+
+
+
+
+/* display the card for the data graphs */
+
+(function(){
+  $(".window").hide(0.001);
+}());
+
+var windowSelected = "";
+
+$(".box").on("click", function(){
+  windowSelected = $(this).attr("class").substring(4);
+  selectBox(windowSelected);
+}) /*box click*/
+
+function selectBox(boxName){
+  $(".window."+boxName).toggle(1000, closeTabN());
+}
+
+//Se agrega y quita la clase closeWindow al closeButton 
+function closeTabN(){
+  $(".closeButton").toggleClass("body closeWindow");
+}
+
+//Cuando se oprime el buttonClose se llama a CheckedWindow para encontrar la ventana "abierta" y cerrarla
+$(".closeButton").on("click", function(){
+  /*var windowName = checkedWindow();
+  $(".window."+windowName.substring(7)).toggle("fast");*/
+  $(".window."+windowSelected).toggle(1000);
+  closeTabN();
+})
