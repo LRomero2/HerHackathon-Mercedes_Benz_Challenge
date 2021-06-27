@@ -4,75 +4,88 @@ window.addEventListener("load", (event) => {
    /* The Team */
    var team = [
       {
-         name: "Alice Stone",
-         role: "UI Designer",
-         desc:
-            "Far far away, behind the world mountains, far from the countries Vokalia and Consonantia, theres live the blind texts.",
-         photo:
-            "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
-         website: "https://rafaelalucas.com",
-         email: "mailto:rafaelavlucas@gmail.com",
-         linkedin: "https://www.linkedin.com/in/rafaelalucas/"
-         
-      },
-      {
-         name: "Adam Turner",
-         role: "Project Manager",
-         desc:
-            "Far far away, behind the world mountains, far from the countries Vokalia and Consonantia, theres live the blind texts.",
-         photo:
-            "https://images.unsplash.com/photo-1522609925277-66fea332c575?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
-         website: "https://rafaelalucas.com",
-         email: "mailto:rafaelavlucas@gmail.com",
-         linkedin: "https://www.linkedin.com/in/rafaelalucas/"
-         
-      },
-      {
-         name: "Nancy Hughes",
-         role: "UX Specialist",
-         desc:
-            "Far far away, behind the world mountains, far from the countries Vokalia and Consonantia, theres live the blind texts.",
-         photo:
-            "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
-         website: "https://rafaelalucas.com",
-         email: "mailto:rafaelavlucas@gmail.com",
-         linkedin: "https://www.linkedin.com/in/rafaelalucas/"
-         
-      },
-      {
-         name: "Jonathan Campbell",
+         name: "Cristina",
          role: "Front-End Developer",
          desc:
+            "Educated in Mechanical Engineering and software development with proficiency in Javascript.",
+         photo:
+            "assets/imgs/cristina.jpg",
+         website: "#",
+         email: "#",
+         linkedin: "#"
+         
+      },
+      {
+         name: "Marta",
+         role: "Data Scientist",
+         desc:
+            "As a Data Scientist I have mostly dealt with NLP tasks. So to participate in this Hackathon and contribute to something different has been refreshing!",
+         photo:
+            "assets/imgs/marta.jpg",
+         website: "#",
+         email: "#",
+         linkedin: "#"
+         
+      },
+      {
+         name: "Lauren",
+         role: "Full-Stack Developer",
+         desc:
+            "Only having graduated last month meant that I was apprehensive about the Hackathon but it's been a pleasure working with such talented women in tech!",
+         photo:
+            "assets/imgs/lauren.jpg",
+         website: "#",
+         email: "lauren.romero@outlook.com",
+         linkedin: "#"
+         
+      },
+      {
+         name: "Praise",
+         role: "Data Scientist",
+         desc:
             "Far far away, behind the world mountains, far from the countries Vokalia and Consonantia, theres live the blind texts.",
          photo:
-            "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
-         website: "https://rafaelalucas.com",
-         email: "mailto:rafaelavlucas@gmail.com",
-         linkedin: "https://www.linkedin.com/in/rafaelalucas/"
+           "assets/imgs/praise.jpg",
+         website: "#",
+         email: "#",
+         linkedin: "#"
         
       },
       {
-         name: "Jack Keller",
-         role: "Back-End Developer",
+         name: "Romaissa",
+         role: "Computer Science Engineer",
          desc:
-            "Far far away, behind the world mountains, far from the countries Vokalia and Consonantia, theres live the blind texts.",
+            "Recently graduated as a Computer Science Engineer. I am passionate about Data, ML and Robotics! This Hackathon was a great way to work with talented women!",
          photo:
-            "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
-         website: "https://rafaelalucas.com",
-         email: "mailto:rafaelavlucas@gmail.com",
-         linkedin: "https://www.linkedin.com/in/rafaelalucas/"
+            "assets/imgs/romaissa.jpg",
+         website: "#",
+         email: "#",
+         linkedin: "#"
          
       },
       {
-         name: "Sara Carroll",
-         role: "Head of UI Design",
+         name: "Nupur",
+         role: "Data Scientist",
          desc:
-            "Far far away, behind the world mountains, far from the countries Vokalia and Consonantia, theres live the blind texts.",
+            "Pursuing NLP and proficient with AI/ML frameworks. Enthusiasm for technology and worked with python for over 3 years.",
          photo:
-            "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300",
-         website: "https://rafaelalucas.com",
-         email: "mailto:rafaelavlucas@gmail.com",
-         linkedin: "https://www.linkedin.com/in/rafaelalucas/"
+            "assets/imgs/nurpur.jpg",
+         website: "#",
+         email: "#",
+         linkedin: "#"
+       
+      },
+
+       {
+         name: "Lou",
+         role: "Back-End Developer",
+         desc:
+            "Educated in Information Technology and proficient in Back-End languages such as python, java, c# and php.",
+         photo:
+            "assets/imgs/lou.jpg",
+         website: "#",
+         email: "#",
+         linkedin: "#"
        
       }
    ];
